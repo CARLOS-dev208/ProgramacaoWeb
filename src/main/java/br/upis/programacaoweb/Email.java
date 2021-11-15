@@ -8,6 +8,10 @@ public class Email {
 
     }
 
+    public Email(String endereco) {
+        this.endereco = endereco;
+    }
+
     public String getEndereco() {
         return endereco;
     }
